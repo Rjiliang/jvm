@@ -11,7 +11,7 @@ import java.util.List;
 public class HeapOOMDemo {
 
     public static void main(String[] args) {
-        int i = 0 ;
+        int i = 0;
         try {
             Thread.sleep(30000L);
             List<String> list = new ArrayList<>();
